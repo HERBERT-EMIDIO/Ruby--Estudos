@@ -10,16 +10,20 @@ class Televisao
         'Televisão ligada'
     end
     
-    def shutdow
-        'televisão desligada'
+    def shutdown
+        'Televisão desligada'
     end
 end
 
+
+# chamada do Objeto 
 tv_quarto = Televisao.new
+
+#usando seu Método
 puts tv_quarto.turn_on
 
 
-Televisao =Televisao.def new
+puts tv_quarto.shutdown
 
-end
+
 
