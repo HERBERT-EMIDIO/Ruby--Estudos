@@ -17,15 +17,11 @@ resultado da soma dos índices pares das duas primeiras.
 
 =end
 
-def soma_id_pares(listOne, listTwo)
-    result = []
-    size = listOne.length
 
-    size.times do |i|
-        if i.even?
-            sum = listOne[i] + listTwo[i]
-            result << sum
-        end
+def valores_pares(value_one, value_two)
+    result =[]
+
+
+    selecionados = numero.select do |n|
+        n>%2
     end
-    result
-end    
